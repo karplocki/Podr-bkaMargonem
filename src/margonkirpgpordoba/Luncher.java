@@ -1,4 +1,6 @@
 package margonkirpgpordoba;
 public class Luncher {
-    int xd;
+    public static void main(String[] args){
+        
+    }
 }
