@@ -1,5 +1,6 @@
 package margonkirpgpordoba.display;
 import java.awt.Canvas;
+import java.awt.Color;
 import java.awt.Dimension;
 import javax.swing.JFrame;
 
@@ -31,7 +32,12 @@ public class Display {
         canvas.setMaximumSize(new Dimension(width, height));
         canvas.setMinimumSize(new Dimension(width, height));
         
+        
         frame.add(canvas);
         frame.pack();
+    }
+    
+    public Canvas getCanvas(){
+        return canvas;
     }
 }

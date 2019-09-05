@@ -5,7 +5,8 @@ import margonkirpgpordoba.display.Display;
 public class Luncher {
     public static void main(String[] args){
         
-        new Game("Title",300,300);
+        Game game = new Game("Title",512,512);
+        game.start();
         
     }
 }
